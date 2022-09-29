@@ -1,8 +1,7 @@
-from distutils.spawn import spawn
 import math
-a=int(input("Перший діапозон (a) "))
-b=int(input("Дрегий діапозон (b) "))
-h=int(input("Крок (h) "))
+a=float(input("Перший діапозон (a) "))
+b=float(input("Дрегий діапозон (b) "))
+h=float(input("Крок (h) "))
 spisok=[]
 while a<=b:
     y=math.log(abs(a+math.e **a),3)
