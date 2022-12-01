@@ -16,16 +16,3 @@ for item in data['finans']['month']:
 
 pylab.bar(keys, a)
 pylab.show()
-
-
-
-
-
-
-
-##window=Tk()
-
-##window['bg']='brown'
-##window.title('Гістограма')
-##window.geometry('450x300')
-##window.mainloop()
